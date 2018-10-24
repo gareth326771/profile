@@ -1,0 +1,165 @@
+/* Colors and Fonts */
+
+body {
+  background-image: url('images/background_2.jpg');
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: small;
+  color:  #7d7d7d;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin: 15px;
+}
+
+h1, h2, h3 {
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #CC6600;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  font-weight: bold;
+}
+
+a {
+  color: #CC6600;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+a:hover {
+  color: purple;
+  font-weight: 300;
+}
+
+table {
+  color: #7d7d7d;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 15px;
+  width: 500;
+}
+
+td {
+   width: 250px;
+   height: 150px;
+   margin: 5px;
+   padding: 5px;
+   text-align: justify;
+
+
+}
+
+ul {
+
+  list-style-type: none;
+  text-align: center;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+
+}
+
+#button1 {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  vertical-align: middle;
+  height: 50px;
+  width: 200px;
+}
+
+#button1:hover {
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  vertical-align: middle;
+  height: 50px;
+  width: 200px;
+  color: purple;
+}
+
+.container {
+  text-align: justify;
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  border: solid;
+  padding: 10px;
+  border-radius: 50px;
+  width: 500px;
+  margin: 10px;
+  text-align: justify;
+  background: #D6E5E3;
+  border-color: #CC6600
+
+}
+
+#img-profile {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #CC6600;
+  border-radius: 200px;
+
+}
+
+#profile_photo {
+  text-align: center;
+  width: 500px;        /* Set the width */
+  margin: 0 auto;
+}
+
+#bettrply_button {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+background: white;
+padding: 30px;
+border: 1px solid lightgrey;
+}
+
+.image {
+    /*position: absolute;*/
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border: solid;
+    border-color: #CC6600;
+  /*  margin:-60px 0 0 -60px;*/
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.list-inline-gaz > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 5px;
+}
